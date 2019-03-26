@@ -31,7 +31,7 @@ resource "kubernetes_pod" "jenkins-pod" {
 
   spec {
     container {
-      image = "fsadykov/centos_jenkins:0.2"
+      image = "azaa1/jenkins"
       name  = "jenkins"
     }
   }
